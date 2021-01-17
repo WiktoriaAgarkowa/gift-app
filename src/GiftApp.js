@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './GiftApp.css';
-import Home from './Home';
+import Home from './Home/Home';
 import Calendar from './Calendar';
 import Blog from './Blog';
 import Notification from './Notifications';
@@ -19,10 +19,7 @@ import {
 class GiftApp extends Component {
     constructor() {
         super();
-
     }
-
-
 
     render() {
         return (
